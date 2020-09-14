@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class BOJ1697 {
 
-    static int cnt = 0;
     static Queue<Integer> queue = new LinkedList<>();
     static int[] visited = new int[100001];
     static Scanner sc = new Scanner(System.in);
