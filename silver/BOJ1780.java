@@ -6,8 +6,10 @@ import java.io.InputStreamReader;
 
 public class BOJ1780 {
 
-    static int cnt = 0;
     static String[][] paper;
+    static int zero = 0;
+    static int one = 0;
+    static int n_one = 0;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,22 +20,23 @@ public class BOJ1780 {
             System.arraycopy(arr, 0, paper[i], 0, size);
         }
         solve(0, 0, size);
-        System.out.println(cnt);
+        System.out.println(n_one);
+        System.out.println(zero);
+        System.out.println(one);
     }
-
-    // 0 1 2
-    // 3 4 5
-    // 6 7 8
 
     public static void solve(int x, int y, int size) {
         if (isCorrect(x, y, size)) {
-            cnt++;
+            String std = paper[x][y];
+            if (std.equals("0")) zero++;
+            if (std.equals("1")) one++;
+            if (std.equals("-1")) n_one++;
             return;
         }
         int newSize = size / 3;
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                solve(x + i * newSize, y + i * newSize, newSize);
+                solve(x + i * newSize, y + j * newSize, newSize);
             }
         }
     }
