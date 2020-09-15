@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-// 숨바꼭질, sliver 1
+// 숨바꼭질, silver 1
 
 public class BOJ1697 {
 

@@ -4,7 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 종이의 개수, silver 2
+
 public class BOJ1780 {
+
 
     static String[][] paper;
     static int zero = 0;

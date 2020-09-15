@@ -1,13 +1,14 @@
 package com.github.naruseon.beakjoon.silver;
 
-// 단지번호붙이기, sliver 1
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+// 단지번호붙이기, sliver 1
+
 public class BOJ2667 {
+
 
     static int[][] graph;
     static int[][] visited;

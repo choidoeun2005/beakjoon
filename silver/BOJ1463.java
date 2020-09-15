@@ -2,7 +2,7 @@ package com.github.naruseon.beakjoon.silver;
 
 import java.util.*;
 
-// 1로 만들기, sliver 3
+// 1로 만들기, silver 3
 
 public class BOJ1463 {
     static Scanner sc = new Scanner(System.in);

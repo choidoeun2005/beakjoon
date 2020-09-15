@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-// 바이러스, sliver 3
+// 바이러스, silver 3
 
 public class BOJ2606 {
 
