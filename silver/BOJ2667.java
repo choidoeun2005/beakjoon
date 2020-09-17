@@ -61,7 +61,7 @@ public class BOJ2667 {
         visited[y][x] = 1;
         Queue<Pair> queue = new LinkedList<>();
         queue.offer(new Pair(y, x));
-        while(!queue.isEmpty()) {
+        while (!queue.isEmpty()) {
             Pair pair = queue.poll();
             for (int i = 0; i < 4; i++) {
                 int nextX = pair.x + dx[i];
@@ -77,12 +77,14 @@ public class BOJ2667 {
         }
         return cnt;
     }
-}
 
-class Pair {
-    int x, y;
-    public Pair(int y, int x) {
-        this.x = x;
-        this.y = y;
+    static class Pair {
+        int x, y;
+
+        public Pair(int y, int x) {
+            this.x = x;
+            this.y = y;
+        }
     }
 }
+

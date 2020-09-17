@@ -10,10 +10,10 @@ public class BOJ1931 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        Pair1[] arr = new Pair1[num];
+        Pair[] arr = new Pair[num];
 
         for (int i = 0; i < num; i++) {
-            arr[i] = new Pair1(sc.nextInt(), sc.nextInt());
+            arr[i] = new Pair(sc.nextInt(), sc.nextInt());
         }
 
         Arrays.sort(arr, (o1, o2) -> {
@@ -34,13 +34,15 @@ public class BOJ1931 {
 
         System.out.println(cnt);
     }
-}
 
-class Pair1 {
-    int start, end;
+    static class Pair {
+        int start, end;
 
-    public Pair1(int start, int end) {
-        this.start = start;
-        this.end = end;
+        public Pair(int start, int end) {
+            this.start = start;
+            this.end = end;
+        }
     }
 }
+
+
