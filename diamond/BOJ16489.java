@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 import java.math.MathContext;
 import java.util.Scanner;
 
+// 삼각형 해커, diamond 5
+
 import static java.math.BigDecimal.ROUND_HALF_UP;
 
 public class BOJ16489 {
