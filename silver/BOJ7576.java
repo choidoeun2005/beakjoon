@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+//토마토, silver 1
+
 public class BOJ7576 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
