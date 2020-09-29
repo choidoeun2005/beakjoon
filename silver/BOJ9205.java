@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 // TODO
 
+// 맥주 마시면서 걸어가기, silver 1
+
 public class BOJ9205 {
     public static void main(String[] args) {
         boolean check = true;

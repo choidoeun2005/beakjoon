@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-// silver 2, AC
+// AC, silver 2
 
 public class BOJ5430 {
     public static void main(String[] args) {

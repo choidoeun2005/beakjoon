@@ -1,6 +1,6 @@
 package com.github.naruseon.beakjoon.silver;
 
-// silver 5, Four Squares
+// Four Squares, silver 5
 
 import java.util.Scanner;
 

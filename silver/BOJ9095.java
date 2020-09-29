@@ -2,6 +2,8 @@ package com.github.naruseon.beakjoon.silver;
 
 import java.util.Scanner;
 
+// 1, 2, 3 더하기, silver 3
+
 public class BOJ9095 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-// gold 5, 적록색약
+// 적록색약, gold 5
 
 public class BOJ10026 {
 
