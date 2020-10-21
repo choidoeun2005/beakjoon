@@ -6,6 +6,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+// 케빈 베이컨의 6단계 법칙, silver 1
+
 public class BOJ1389 {
 	static Scanner sc = new Scanner(System.in);
 	static int N = sc.nextInt();
