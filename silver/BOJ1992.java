@@ -1,6 +1,6 @@
 package com.github.naruseon.beakjoon.silver;
 
-// silver 1, 쿼드트리
+// 쿼드트리, silver 1
 
 import java.util.Scanner;
 
