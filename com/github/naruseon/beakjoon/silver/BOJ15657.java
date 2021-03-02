@@ -3,7 +3,6 @@ package com.github.naruseon.beakjoon.silver;
 import java.util.*;
 
 // N과  M (8), silver 3
-// TODO
 
 public class BOJ15657 {
 	
