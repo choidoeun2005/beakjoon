@@ -1,4 +1,4 @@
-package com.github.naruseon.beakjoon;
+package com.github.naruseon.beakjoon.gold;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.github.naruseon.beakjoon;
+package com.github.naruseon.beakjoon.gold;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,6 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
+
+// 트리의 지름, gold 3
 
 public class BOJ1167 {
 
