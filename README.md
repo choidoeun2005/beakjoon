@@ -1,3 +1,3 @@
 
-# beakjoon
+# baekjoon
  beakjoon online judge solving
