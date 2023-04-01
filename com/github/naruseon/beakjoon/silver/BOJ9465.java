@@ -2,7 +2,7 @@ package com.github.naruseon.beakjoon.silver;
 
 import java.util.*;
 
-// 스티커, silver 2
+// 스티커, silver 1
 
 public class BOJ9465 {
 	public static void main(String[] args) {
@@ -17,6 +17,10 @@ public class BOJ9465 {
 			}
 			for (int j = 0; j < N; j++) {
 				stickers[1][j] = sc.nextInt();
+			}
+			if (N == 1) {
+				System.out.println(Math.max(stickers[0][0], stickers[1][0]));
+				continue;
 			}
 			stickers[0][1] += stickers[1][0];
 			stickers[1][1] += stickers[0][0];
