@@ -31,6 +31,14 @@ public class BOJ2096 {
             DP[j][1] = map[j][1] + Math.max(DP[j - 1][0], Math.max(DP[j - 1][1], DP[j - 1][2]));
             DP[j][2] = map[j][2] + Math.max(DP[j - 1][1], DP[j - 1][2]);
         }
+
+        for (int[] i : DP) {
+            for (int j : i) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+
         System.out.print(Math.max(DP[N - 1][0], Math.max(DP[N - 1][1], DP[N - 1][2])) + " ");
 
         for (int j = 1; j < N; j++) {

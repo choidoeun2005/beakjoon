@@ -33,7 +33,7 @@ public class BOJ1557 {
                 // countSquareFree(mid) 개수가 과하면 right 줄이고
                 // countSquareFree(mid) 개수가 적당해도 이걸 만족하는 N의 최소가 나와야되기에 right 줄이고 left 놔두고
             else right = mid;
-            ans = mid;
+            ans = right;
         }
         System.out.println(ans);
     }

@@ -5,34 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9042bc33-2453-48b6-b09e-e3db8543a096" name="Default Changelist" comment="add some solutions">
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/bronze/BOJ1546.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/diamond/BOJ1557.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ1043.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ10830.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ11444.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ12015.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ12865.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ16928.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ1916.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ1967.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ2096.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ2263.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ26607.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ5639.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ9251.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ9252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ9663.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/platinum/BOJ14003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/platinum/BOJ14939.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ10845.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ11053.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ1149.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ11659.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ11660.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ1932.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ1991.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ13549.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ13549.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ9465.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/silver/BOJ9465.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/assignments/NewtonMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/diamond/BOJ8464.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ11054.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ12851.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ13172.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ2206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ9935.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/github/naruseon/beakjoon/diamond/BOJ1557.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/diamond/BOJ1557.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ1504.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ1504.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ2096.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/github/naruseon/beakjoon/gold/BOJ2096.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/beakjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/beakjoon/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,9 +59,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BOJ14003">
-    <configuration name="BOJ10830" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.gold.BOJ10830" />
+  <component name="RunManager" selected="Application.BOJ8464">
+    <configuration name="BOJ13172" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.gold.BOJ13172" />
       <module name="beakjoon" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +73,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ12015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.gold.BOJ12015" />
+    <configuration name="BOJ1557" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.diamond.BOJ1557" />
+      <module name="beakjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.naruseon.beakjoon.diamond.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ2096" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.gold.BOJ2096" />
       <module name="beakjoon" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ14003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.platinum.BOJ14003" />
+    <configuration name="BOJ8464" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.diamond.BOJ8464" />
       <module name="beakjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.naruseon.beakjoon.platinum.*" />
+          <option name="PATTERN" value="com.github.naruseon.beakjoon.diamond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ14939" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.platinum.BOJ14939" />
+    <configuration name="NewtonMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.assignments.NewtonMethod" />
       <module name="beakjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.naruseon.beakjoon.platinum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BOJ1967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.naruseon.beakjoon.gold.BOJ1967" />
-      <module name="beakjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.naruseon.beakjoon.gold.*" />
+          <option name="PATTERN" value="com.github.naruseon.beakjoon.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ14003" />
-        <item itemvalue="Application.BOJ12015" />
-        <item itemvalue="Application.BOJ14939" />
-        <item itemvalue="Application.BOJ10830" />
-        <item itemvalue="Application.BOJ1967" />
+        <item itemvalue="Application.BOJ8464" />
+        <item itemvalue="Application.BOJ1557" />
+        <item itemvalue="Application.BOJ2096" />
+        <item itemvalue="Application.NewtonMethod" />
+        <item itemvalue="Application.BOJ13172" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615529529583</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add some solutions">
+      <created>1680349836775</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680349836775</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -43,14 +43,30 @@ public class BOJ1504 {
         dist2[V1] = 0;
         dist3[V2] = 0;
 
+        int startToV1 = dijkstra(0, V1);
+        int startToV2 = dijkstra(0, V2);
         int V1toV2 = dijkstra(V1, V2);
-        long case1 = dijkstra(0, V1) + V1toV2 + dijkstra(V2, N - 1);
-        long case2 = dijkstra(0, V2) + V1toV2 + dijkstra(V1, N - 1);
+        int V1ToEnd = dijkstra(V1, N - 1);
+        int V2ToEnd = dijkstra(V2, N - 1);
 
-        if (V1toV2 >= Integer.MAX_VALUE || case1 >= Integer.MAX_VALUE || case2 >= Integer.MAX_VALUE) {
+        if (V1toV2 == -1) {
             System.out.println(-1);
             return;
         }
+
+        if (startToV1 == -1 && startToV2 == -1) {
+            System.out.println(-1);
+            return;
+        }
+
+        if (V1ToEnd == -1 && V2ToEnd == -1) {
+            System.out.println(-1);
+            return;
+        }
+
+        long case1 = startToV1 + V1toV2 + V2ToEnd;
+        long case2 = startToV2 + V1toV2 + V1ToEnd;
+
         System.out.println(Math.min(case1, case2));
     }
 
@@ -62,6 +78,10 @@ public class BOJ1504 {
         pq.add(new Node(start, 0));
         while(!pq.isEmpty()) {
             Node cur = pq.poll();
+
+            if (cur.index == dest)
+                return dist[dest];
+
             for (Node next : info[cur.index]) {
                 if (dist[next.index] > dist[cur.index] + next.cost) {
                     dist[next.index] = dist[cur.index] + next.cost;
@@ -69,7 +89,7 @@ public class BOJ1504 {
                 }
             }
         }
-        return dist[dest];
+        return -1;
     }
 
     static class Node {
