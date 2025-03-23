@@ -1,27 +1,24 @@
 package com.github.naruseon.beakjoon.assignments;
 
+import java.util.ArrayList;
+
 public class NewtonMethod {
-    static double Function1(double x) {
-        return (x*x-2);
-    }
-
-    static double Function2(double x) {
-        return (2*x);
-    }
-
     public static void main(String[] args) {
-        System.out.println("Newton method");
+        A a = new A();
+        a.addElement(1);
+        a.addElement(2);
+//        A b = new A();
+//        a = b;
+        a.list.forEach(System.out :: println);
 
-        double tolerance = 0.000000001;
-        double x = 2;
+    }
 
-        while( (Function1(x)/Function2(x) ) > tolerance )
-        {
-            x = x - (Function1(x) / Function2(x));
-            System.out.println("in loop " + x);
+    static class A {
+        ArrayList<Integer> list = new ArrayList<>();
+        public A() {}
+
+        public void addElement(int a) {
+            list.add(a);
         }
-
-        System.out.println("result : "+ x);
-
     }
 }
